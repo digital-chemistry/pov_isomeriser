@@ -197,7 +197,7 @@ def construct_pseudo_rbc_rots():
 def pseudo_rbc_colorings():
     FOLDER_NAME = 'out_prbc'
     if os.path.isdir(FOLDER_NAME):
-        print (f"The output directory {FOLDER_NAME} alredy exists, you can see it inside the alchemist folder.\nPlease rename it"+
+        print (f"The output directory {FOLDER_NAME} alredy exists, you can see it inside this folder.\nPlease rename it"+
                    " or delete it if you want to regenerate the output.\nOtherwise I am not doing anything. Exiting now.")
         return
     os.mkdir(FOLDER_NAME)

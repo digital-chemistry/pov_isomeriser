@@ -179,7 +179,7 @@ def rbc_colorings():
     assert_rotations_and_distances(all_rots, distance_between_two_vertices)
     # number of zeros is number of vertices in a particular color, then ones is the number of the other color
     # you can think of it as blue color=zero red color=one
-    for zeros in range(2, 10): 
+    for zeros in range(1, 10): 
         sys.stdout.flush()
         ones = 18 - zeros
         unique_colorings, _ = count_all_colorings(all_rots, zeros, ones)

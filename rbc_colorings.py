@@ -19,11 +19,11 @@ import datetime
 import os
 import sys
 import numpy as np
-from povs_isomeriser.rotation import Rotation
-from povs_isomeriser.compose_rotations import all_rotations_combos
-from povs_isomeriser.count_all_colorings import count_all_colorings
-from povs_isomeriser.average_distance import average_distance
-from povs_isomeriser.assert_rotations_and_distances import assert_rotations_and_distances
+from rotation import Rotation
+from compose_rotations import all_rotations_combos
+from count_all_colorings import count_all_colorings
+from average_distance import average_distance
+from assert_rotations_and_distances import assert_rotations_and_distances
 
 _VERTEX_LABELS = {'C2':1, 'B2':2, 'A2':3, 'B1':4, 'A1':5, 'C1':6,
                 'b2c2':1, 'a2c2':2, 'b1c2':3, 'a1c2':4,

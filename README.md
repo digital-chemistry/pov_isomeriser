@@ -3,3 +3,5 @@ This code can be used to generate all possible configurations of alfa-{V18O42} w
 The 2 runnable files are rbc_colorings.py and pseudo_rbc_colorings.py. You can run them from your IDE, or from your command line, for example:
 python rbc_colorings.py
 You can add more runnable files for different geometries by following those examples, if you need any help, please reach out to me on LinkedIn.
+
+The requirements are Python 3 and numpy, which can be installed by running pip install numpy

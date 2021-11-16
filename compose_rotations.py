@@ -4,7 +4,7 @@ Created on Jul 3, 2017
 @author: Viktor Simjanoski
 '''
 import itertools
-from povs_isomeriser.rotation import Rotation
+from rotation import Rotation
 
 def compose_rotations(rotations):
     """

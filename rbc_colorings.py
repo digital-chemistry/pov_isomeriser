@@ -19,7 +19,7 @@ import datetime
 import os
 import sys
 import numpy as np
-from rotation import Rotation
+from povs_isomeriser.rotation import Rotation
 from compose_rotations import all_rotations_combos
 from count_all_colorings import count_all_colorings
 from average_distance import average_distance

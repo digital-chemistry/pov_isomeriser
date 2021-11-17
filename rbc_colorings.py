@@ -3,7 +3,9 @@ Created on Jul 3, 2017
 
 @author: Viktor Simjanoski
 
-Need Python 3 to run this, type in your terminal python rbc_colorings.py
+Need Python 3 to run this, type in your terminal 
+python -m povs_isomeriser.rbc_colorings
+in the parent folder.
 
 Counting colorings for rhombicuboctahedron. We write them to a folder titled `out_rbc`, inside this local povs_isomeriser
 directory. If the out directory already exists, the program will exit without writing anything. In this

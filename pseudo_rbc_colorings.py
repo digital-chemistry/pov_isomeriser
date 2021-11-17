@@ -3,10 +3,14 @@ Created on Jul 8, 2017
 
 @author: Viktor Simjanoski
 
+Need Python 3 to run this, type in your terminal 
+python -m povs_isomeriser.pseudo_rbc_colorings
+in the parent folder.
+
 Counting colorings for pseudo-rhombicuboctahedron. The file structure is same as rbc_colorings.py
 (please check the documentation there). Only difference is the hard-coded structure of the solid
 and the distances between various vertices.
-The run takes 1-2 minutes depending on your computer.
+The run takes less than 1 minute.
 '''
 import datetime
 import os

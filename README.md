@@ -4,5 +4,5 @@ The 2 runnable files are rbc_colorings.py and pseudo_rbc_colorings.py. You can r
 python -m povs_isomeriser.rbc_colorings
 (from the parent directory)
 
-Code Author: Viktor Simjanoski
+Code Author: Viktor Simjanoski 
 The requirements are Python 3 and numpy, which can be installed by running pip install numpy

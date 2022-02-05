@@ -3,6 +3,7 @@ This code can be used to generate all possible configurations of alfa-{V18O42} w
 The 2 runnable files are rbc_colorings.py and pseudo_rbc_colorings.py. You can run them from your IDE, or from your command line, for example:
 python -m povs_isomeriser.rbc_colorings
 (from the parent directory)
-You can add more runnable files for different geometries by following those examples. If you need any help doing that, please reach out to me on LinkedIn.
+
+Code Author: Viktor Simjanoski (https://www.linkedin.com/in/viktor-s-36aa63157/)
 
 The requirements are Python 3 and numpy, which can be installed by running pip install numpy
